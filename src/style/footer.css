@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*媒体查询 头部样式*/
+/*以下两个为pc端的-------------------------------开始-------------------start---------------------------------------*/
+@media screen and (min-width: 1200px) {
+  /* width>1200px */
+  .footer_m {
+    display: none; }
+
+  .footer_p {
+    width: 100%;
+    background-color: #429aeb;
+    height: 4.3952180028rem;
+    color: white;
+    font-size: 0.3735935302rem; }
+
+  .footer_left {
+    line-height: 0.8790436006rem;
+    width: 19.5587201125rem;
+    margin-left: 9.449718706rem;
+    border-right: solid 1px #fff;
+    margin-top: 0.5494022504rem;
+    padding: 0.5494022504rem 0;
+    float: left; }
+    .footer_left .link {
+      font-size: 0.4834739803rem; }
+    .footer_left a {
+      color: white; }
+
+  .footer_right {
+    line-height: 1.3185654008rem;
+    float: left;
+    width: 6.5928270042rem;
+    margin-top: 0.5494022504rem;
+    margin-left: 1.0988045007rem;
+    padding: 0.4395218003rem 0; }
+    .footer_right li {
+      display: inline-block;
+      margin-right: 0.4395218003rem;
+      margin-top: 0.3296413502rem; }
+    .footer_right img {
+      width: 0.7911392405rem;
+      height: 0.7911392405rem; } }
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  /* 980px<width<1199px */
+  .footer_m {
+    display: none; }
+
+  .footer_p {
+    width: 100%;
+    background-color: #429aeb;
+    height: 4.3952180028rem;
+    color: white;
+    font-size: 0.3735935302rem; }
+
+  .footer_left {
+    line-height: 0.8790436006rem;
+    width: 19.5587201125rem;
+    margin-left: 9.449718706rem;
+    border-right: solid 1px #fff;
+    margin-top: 0.5494022504rem;
+    padding: 0.5494022504rem 0;
+    float: left; }
+    .footer_left .link {
+      font-size: 0.4834739803rem; }
+    .footer_left a {
+      color: white; }
+
+  .footer_right {
+    line-height: 1.3185654008rem;
+    float: left;
+    width: 6.5928270042rem;
+    margin-top: 0.5494022504rem;
+    margin-left: 1.0988045007rem;
+    padding: 0.4395218003rem 0; }
+    .footer_right li {
+      display: inline-block;
+      margin-right: 0.4395218003rem;
+      margin-top: 0.3296413502rem; }
+    .footer_right img {
+      width: 0.7911392405rem;
+      height: 0.7911392405rem; } }
+/*pc端的媒体查询样式结束----------------------------------------------结束-------end----------------------*/
+/*以下为移动端的样式 以上为pc 和 平板的样式  750px--------------------------移动端开始--------start----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  /* 768px<width<979px */
+  .footer_p {
+    display: none; }
+
+  .footer_m {
+    background-color: #429aeb;
+    width: 100%;
+    height: 5.9375rem;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.75rem;
+    text-align: center; } }
+@media screen and (max-width: 767px) {
+  /* width<767px */
+  .footer_p {
+    display: none; }
+
+  .footer_m {
+    background-color: #429aeb;
+    width: 100%;
+    height: 5.9375rem;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.75rem;
+    text-align: center; } }
+@media screen and (max-width: 480px) {
+  /* width<480px */
+  .footer_p {
+    display: none; }
+
+  .footer_m {
+    background-color: #429aeb;
+    width: 100%;
+    height: 5.9375rem;
+    color: white;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: 1.0625rem;
+    line-height: 1.75rem;
+    text-align: center; } }
+/*------------------------------移动端媒体查询结束----------------------------------------------------------结束----end------------------------*/
+
+/*# sourceMappingURL=footer.css.map */

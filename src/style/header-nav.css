@@ -1,0 +1,216 @@
+@charset "UTF-8";
+.nav {
+  width: 100%;
+  box-sizing: border-box;
+  height: 2.0877285513rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  border-bottom: solid 0.02197609rem rgba(217, 215, 214, 0.8);
+  box-shadow: 10px 0 100px rgba(0, 0, 0, 0.3); }
+
+/*媒体查询 头部样式*/
+/*以下两个为pc端的-------------------------------开始-------------------start---------------------------------------*/
+@media screen and (min-width: 1200px) {
+  /* width>1200px */
+  .nav-p {
+    width: 30.7665260197rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 2.0877285513rem;
+    box-sizing: border-box;
+    line-height: 2.0877285513rem; }
+
+  .nav-p img {
+    margin-top: 0.21976rem;
+    width: 7.0323488045rem;
+    height: 1.582278481rem; }
+
+  .nav-p-right {
+    text-align: right;
+    display: inline-block;
+    width: 15.3832630098rem;
+    float: right; }
+
+  .nav-p-right li {
+    display: inline-block;
+    margin-left: 1.3185654008rem;
+    font-size: 0.5274261603rem; }
+
+  .nav-p-right a:hover {
+    color: #429aeb; }
+
+  .nav-m {
+    display: none; } }
+@media screen and (min-width: 980px) and (max-width: 1199px) {
+  /* 980px<width<1199px */
+  .nav-p {
+    width: 30.7665260197rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 2.0877285513rem;
+    box-sizing: border-box;
+    line-height: 2.0877285513rem; }
+
+  .nav-p img {
+    margin-top: 0.21976rem;
+    width: 7.0323488045rem;
+    height: 1.582278481rem; }
+
+  .nav-p-right {
+    text-align: right;
+    display: inline-block;
+    width: 15.3832630098rem;
+    float: right; }
+
+  .nav-p-right li {
+    display: inline-block;
+    margin-left: 1.3185654008rem;
+    font-size: 0.5274261603rem; }
+
+  .nav-p-right a:hover {
+    color: #429aeb; }
+
+  .nav-m {
+    display: none; } }
+/*pc端的媒体查询样式结束----------------------------------------------结束-------end----------------------*/
+/*以下为移动端的样式 以上为pc 和 平板的样式  750px--------------------------移动端开始--------start----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  /* 768px<width<979px */
+  .nav-p {
+    display: none; }
+
+  .nav-m {
+    height: 5.9375rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: white; }
+
+  .nav-m .nav-m-left img {
+    width: 17.6875rem;
+    height: 3.75rem;
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 3.0666667%; }
+
+  .nav-m .nav-m-right img, .close img {
+    width: 2.6875rem;
+    height: 2.5625rem;
+    float: right;
+    margin-top: 1.875rem;
+    margin-right: 3.0666667%; }
+
+  .menu-extend {
+    margin-top: 5.9375rem;
+    padding: 3.4375rem 0;
+    width: 100%;
+    background: white; }
+
+  .menu-extend li {
+    display: inline-block;
+    margin-left: 6.25rem; }
+
+  .menu-extend li:first-child {
+    margin-left: 1.5625rem; }
+
+  .menu-extend img {
+    width: 5.625rem;
+    height: 5.625rem; } }
+@media screen and (max-width: 767px) {
+  /* width<767px */
+  .nav-p {
+    display: none; }
+
+  .nav-m {
+    height: 5.9375rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: white; }
+
+  .nav-m .nav-m-left img {
+    width: 17.6875rem;
+    height: 3.75rem;
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 3.0666667%; }
+
+  .nav-m .nav-m-right img, .close img {
+    width: 2.6875rem;
+    height: 2.5625rem;
+    float: right;
+    margin-top: 1.875rem;
+    margin-right: 3.0666667%; }
+
+  .menu-extend {
+    margin-top: 5.9375rem;
+    padding: 3.4375rem 0;
+    width: 100%;
+    background: white; }
+
+  .menu-extend li {
+    display: inline-block;
+    margin-left: 6.25rem; }
+
+  .menu-extend li:first-child {
+    margin-left: 1.5625rem; }
+
+  .menu-extend img {
+    width: 5.625rem;
+    height: 5.625rem; } }
+@media screen and (max-width: 480px) {
+  /* width<480px */
+  .nav-p {
+    display: none; }
+
+  .nav-m {
+    height: 5.9375rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: white; }
+
+  .nav-m .nav-m-left img {
+    width: 17.6875rem;
+    height: 3.75rem;
+    float: left;
+    margin-top: 1.25rem;
+    margin-left: 3.0666667%; }
+
+  .nav-m .nav-m-right img, .close img {
+    width: 2.6875rem;
+    height: 2.5625rem;
+    float: right;
+    margin-top: 1.875rem;
+    margin-right: 3.0666667%; }
+
+  .menu-extend {
+    margin-top: 5.9375rem;
+    padding: 3.4375rem 0;
+    width: 100%;
+    background: white; }
+
+  .menu-extend li {
+    display: inline-block;
+    margin-left: 6.25rem; }
+
+  .menu-extend li:first-child {
+    margin-left: 1.5625rem; }
+
+  .menu-extend img {
+    width: 5.625rem;
+    height: 5.625rem; } }
+/*------------------------------移动端媒体查询结束----------------------------------------------------------结束----end------------------------*/
+
+/*# sourceMappingURL=header-nav.css.map */
